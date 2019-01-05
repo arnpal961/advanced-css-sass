@@ -1,0 +1,27 @@
+{
+  "name": "advanced-css-sass",
+  "version": "0.0.1",
+  "description": "Building the html css only travel website",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnpal961/advanced-sass-css.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html"
+  ],
+  "author": "Arnab Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnpal961/advanced-sass-css/issues"
+  },
+  "homepage": "https://github.com/arnpal961/advanced-sass-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
